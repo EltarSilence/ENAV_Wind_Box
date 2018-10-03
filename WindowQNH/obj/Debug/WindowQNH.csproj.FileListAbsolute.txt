@@ -1,0 +1,14 @@
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\bin\Debug\WindowQNH.exe.config
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\bin\Debug\WindowQNH.exe
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\bin\Debug\WindowQNH.pdb
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.csprojResolveAssemblyReference.cache
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.Form1.resources
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.Properties.Resources.resources
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.csproj.GenerateResource.Cache
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.exe
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.pdb
+c:\users\giovanni\documents\visual studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.Form2.resources
+C:\Users\Giovanni\Documents\Visual Studio 2012\Projects\WindowQNH\WindowQNH\bin\Debug\WindowQNH.exe.manifest
+C:\Users\Giovanni\Documents\Visual Studio 2012\Projects\WindowQNH\WindowQNH\bin\Debug\WindowQNH.application
+C:\Users\Giovanni\Documents\Visual Studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.exe.manifest
+C:\Users\Giovanni\Documents\Visual Studio 2012\Projects\WindowQNH\WindowQNH\obj\Debug\WindowQNH.application
