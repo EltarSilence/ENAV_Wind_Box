@@ -16,9 +16,10 @@ namespace WindowQNH
 
         public string icaoDaCercare { get; set; }
 
-        public Form1()
+        public Form1(string search)
         {
             InitializeComponent();
+            textBox1.Text = search;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -38,6 +39,7 @@ namespace WindowQNH
 
         private void lblFixedQNH_Click(object sender, EventArgs e)
         {
+            this.Hide();
             impostazioni.Show();
         }
 
@@ -48,9 +50,8 @@ namespace WindowQNH
 
             List<string> metars = new List<string>();
             metars = downloadedString.Split('\n').ToList();
-
-            //this.icaoDaCercare = impostazioni.txtICAOdC.Text;
-            this.icaoDaCercare = "LIRF";
+           
+            this.icaoDaCercare = textBox1.Text;
 
             for (int i = 0; i < metars.Count() - 1; i++)
             {
@@ -105,7 +106,7 @@ namespace WindowQNH
             List<string> metars = new List<string>();
             metars = downloadedString.Split('\n').ToList();
 
-            this.icaoDaCercare = "LIRF";
+            this.icaoDaCercare = textBox1.Text;
 
             for (int i = 0; i < metars.Count() - 1; i++)
             {

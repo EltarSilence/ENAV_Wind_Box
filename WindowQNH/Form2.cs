@@ -25,8 +25,9 @@ namespace WindowQNH
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtICAOdC.Text = txtICAOdC.Text; 
-            this.Hide();
+            Form1 f1 = new Form1(txtICAOdC.Text);
+            f1.Show(); 
+            this.Close();
         }
     }
 }

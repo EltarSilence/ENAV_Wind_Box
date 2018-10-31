@@ -40,6 +40,7 @@
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblOrario
@@ -107,11 +108,11 @@
             // 
             this.btnImpostazioni.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnImpostazioni.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImpostazioni.Location = new System.Drawing.Point(12, 7);
+            this.btnImpostazioni.Location = new System.Drawing.Point(3, 7);
             this.btnImpostazioni.Name = "btnImpostazioni";
-            this.btnImpostazioni.Size = new System.Drawing.Size(31, 23);
+            this.btnImpostazioni.Size = new System.Drawing.Size(40, 23);
             this.btnImpostazioni.TabIndex = 5;
-            this.btnImpostazioni.Text = "RF";
+            this.btnImpostazioni.Text = "GET";
             this.btnImpostazioni.UseVisualStyleBackColor = false;
             this.btnImpostazioni.Click += new System.EventHandler(this.btnImpostazioni_Click);
             // 
@@ -129,7 +130,7 @@
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape2,
             this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(483, 39);
+            this.shapeContainer1.Size = new System.Drawing.Size(448, 39);
             this.shapeContainer1.TabIndex = 6;
             this.shapeContainer1.TabStop = false;
             // 
@@ -153,12 +154,21 @@
             this.lineShape1.Y1 = 1;
             this.lineShape1.Y2 = 39;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(431, 19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(14, 20);
+            this.textBox1.TabIndex = 7;
+            this.textBox1.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(483, 39);
+            this.ClientSize = new System.Drawing.Size(448, 39);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnImpostazioni);
             this.Controls.Add(this.lblFixedTL);
             this.Controls.Add(this.lblFixedQNH);
@@ -167,7 +177,7 @@
             this.Controls.Add(this.lblOrario);
             this.Controls.Add(this.shapeContainer1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Radar Weather Strip";
@@ -191,6 +201,7 @@
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
